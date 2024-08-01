@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>static app-e-commerce site</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	
+</head>
+<body>
+	<!-- Navbar Section -->
+	<div class="nav-Div">
+		<nav class="navbar navbar-expand-lg navbar-dark  px-3 mx-auto">
+		    <a class="navbar-brand d-lg-none" href="#"><img src="./images/logo.png" id="navLogo">ine Shop!</a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarNav">
+		      <ul class="navbar-nav">
+		      	<li>
+		      		<a class="navbar-brand d-none d-lg-block text-dark" href="#"><img src="./images/logo.png" id="navLogo">ine Shop!</a>
+		      	</li>
+		        <li class="nav-item pt-lg-2">
+		          	<a class="nav-link active" aria-current="page" href="#hero">Home</a>
+		        </li>
+		        <li class="nav-item pt-lg-2">
+		          	<a class="nav-link active" href="#heading">Featured Products</a>
+		        </li>
+		        <li class="nav-item pt-lg-2">
+		          	<a class="nav-link active" href="#categories">Categories</a>
+		        </li>
+		        <li class="nav-item pt-lg-2">
+		          	<a class="nav-link active" href="#contact">Contact</a>
+		        </li>
+		        <li>
+		        	<button class="text-white" type="button" href="#" id="logInBtn">Login</button>
+		        </li>
+		      </ul>
+		    </div>
+		</nav>
+	</div>
+	<!-- End of Navbar -->
+	<!-- Hero Section -->
+	<div id="hero">
+		<div class="container py-5 py-lg-0">
+			<div class="row py-5 py-lg-0">
+				<div class="col-lg-6 order-1 d-grid align-content-center justify-content-center text-center">
+					<h1 >Online Shopping </h1>
+					<h5>has never been this easy!</h5>
+					<div>
+					<button class="text-white" type="button" href="#" id="logInBtn-2">Login</button>
+					</div>
+				</div>
+				<div class="col-lg-6 order-2 d-grid align-content-center">
+					<img src="./images/online shopping.png" class="img-fluid" id="heroImg">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Ending of Hero Section -->
+	<!-- Heading/header Section -->
+	<div id="heading">
+		<div class="container pt-3 pb-5 text-white" id="heading">
+			<div class="row">
+				<h1 class="text-center pb-2">Featured Products</h1>
+				<div class="col-lg-6 order-1 d-grid justify-content-center" id="carouselDiv">
+					<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="carousel-item active" data-bs-interval="2000">
+					      <img src="./images/phone.jpg" class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item" data-bs-interval="2000">
+					      <img src="./images/hoodie.jpg" class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item" data-bs-interval="2000">
+					      <img src="./images/facial.jpg" class="d-block w-100" alt="...">
+					    </div>
+					  </div>
+					  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Previous</span>
+					  </button>
+					  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Next</span>
+					  </button>
+					</div>
+				</div>
+				<div class="col-lg-6 order-2 d-grid align-content-center justify-content-center">
+					<h3 class="text-center">The Future of Shopping</h3>
+					<p>Discover why shopping with us is the best choice for your online needs. Our site offers a curated selection of top-quality products, seamless browsing, and secure checkout. We pride ourselves on exceptional customer service, fast shipping, and exclusive deals that make every purchase a delight. With a user-friendly interface and personalized recommendations, we ensure a shopping experience that's tailored just for you. Choose us for unbeatable value, convenience, and a commitment to making your shopping experience truly enjoyable.</p>
+				</div>
+			</div>
+		</div> 
+	</div>
+	<!-- End of Heading/header Section -->
+	<!-- Card/Categories Section -->
+	<div id="categories">
+		<div class="container pt-5 pb-5">
+			<div class="card-group gap-3">
+			  <div class="card">
+			    <img src="./images/beauty-products.jpeg" class="card-img-top" alt="...">
+			    <div class="card-body">
+			      <h5 class="card-title text-center">Beauty Essentials</h5>
+			      <p class="card-text">Discover our curated selection of beauty essentials designed to enhance your natural glow. From rejuvenating skincare to vibrant cosmetics, our collection features premium products that cater to all your beauty needs. Whether you're searching for the perfect serum, luxurious moisturizer, or bold new shade, find everything you need to look and feel your best.</p>
+			    </div>
+			    <div class="card-footer">
+			      <small class="text-muted">Best Seller</small>
+			    </div>
+			  </div>
+			  <div class="card">
+			    <img src="./images/gadgets.png" class="card-img-top" alt="...">
+			    <div class="card-body">
+			      <h5 class="card-title text-center">Innovative Gadgets</h5>
+			      <p class="card-text">Dive into our collection of the latest gadgets designed to enhance your lifestyle. From smart home devices and wearable tech to high-performance accessories, we offer top-of-the-line products that blend functionality with innovation. Whether you're a tech enthusiast or just looking for practical solutions, find the perfect gadget to upgrade your everyday experience.</p>
+			    </div>
+			    <div class="card-footer">
+			      <small class="text-muted">Browse our top-rated gadgets and find your next tech upgrade</small>
+			    </div>
+			  </div>
+			  <div class="card">
+			    <img src="./images/clothing.jpg" class="card-img-top" alt="...">
+			    <div class="card-body">
+			      <h5 class="card-title text-center">Trendsetting Fashion</h5>
+			      <p class="card-text">Step into style with our curated range of fashion clothing designed to make a statement. From chic casuals to elegant evening wear, our collection features the latest trends and timeless classics that cater to every occasion. Discover premium fabrics, unique designs, and versatile pieces that will redefine your wardrobe and express your personal style.</p>
+			    </div>
+			    <div class="card-footer">
+			      <small class="text-muted">New Arrival</small>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<!-- End of Card/Categories Section -->
+	<!-- Contact Section -->	
+	<div id="contact" class="container-fluid text-white">
+		<div class="container">
+			<h1 class="text-center pt-5">Contact Us</h1>
+			<div class="row">
+				<div class="col-md-6 d-flex d-md-grid gap-5 justify-content-center align-items-center">
+					<a href="https://www.facebook.com" target="_blank" class="my-5"><img src="./images/fb.png"></a>
+					<a href="http://linkedin.com" target="_blank" class="my-5"><img src="./images/linkedIn.png"></a>
+					<a href="https://github.com" target="_blank" class="my-5"><img src="./images/github.png"></a>
+				</div>
+				<div class="col-md-6 d-grid text-start align-content-center mb-5" id="form">
+					<h2 id="contact-header" class="text-center">Message Us</h2>
+					<form>
+						<div class="form-group my-4">
+							<label for="exampleFormControlInput1">Name</label>
+							<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe" required/>
+						</div>
+						<div class="form-group my-4">
+							<label for="exampleFormControlInput2">Email Address</label>
+							<input type="email" class="form-control" id="exampleFormControlInput2" placeholder="john.doe@mail.com" required/>
+						</div>
+						<div class="form-group my-4">
+							<label for="exampleFormControlTextarea1">Message</label>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="6" required></textarea>
+						</div>
+						<div class="d-md-flex justify-content-md-end">
+							<button id="form-btn" type="button" class="btn bg-white" data-bs-toggle="modal"
+                  data-bs-target="#modalDiv">Submit</button>
+						</div>
+					</form>
+					<div class="modal fade" id="modalDiv" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          	<div class="modal-dialog text-dark">
+            	<div class="modal-content">
+              	<div class="modal-header">
+                	<h6 class="modal-title" id="modalDivLabel">Thank you for contacting us!</h6>
+                	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              	</div>
+              	<div class="modal-body text-center">Message Successfully Sent</div>
+              	<div class="modal-footer">
+                	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              	</div>
+            	</div>
+          	</div>
+        	</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<!-- End of Contact Section -->
+	<!-- Footer -->
+	<footer class="py-3 text-center"> 2024 | All rights reserved. </footer>
+	
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+<!-- mx-lg-auto -->
